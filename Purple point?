@@ -73,7 +73,7 @@ spawn(function()
 end)    
 
 mouse.KeyDown:Connect(function(k)
-    if k ~= "q" then return end
+    if k ~= "f" then return end
     if enabled then
         enabled = false
        -- guimain[Plr.Name].Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -123,16 +123,8 @@ end
 
 if KRNL_LOADED then
                         game.StarterGui:SetCore("SendNotification", {
-                        Title    = "6ixty locker",
-                        Text     = "Made by 6ixty#6207 | Q to toggle on/off",
+                        Title    = "Kater Hub",
+                        Text     = " F to toggle on/off",
                         Duration = 20        
-                   })
-end
-if syn then
-                        game.StarterGui:SetCore("SendNotification", {
-                        Title    = "6ixty Locker",
-                        Text     = "Made by 6ixty#6207 | Q to toggle on/off",
-                        Duration = 20
-        
                    })
 end
